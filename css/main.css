@@ -1,0 +1,35 @@
+.wrap, .animate {
+  height: 200px;
+  cursor: pointer;
+  width: 200px;
+  margin: 20px;
+}
+
+.cls-2 {
+  fill: none;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.line2 {
+  fill: none;
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.line2#top {
+  stroke-dashoffset: 10;
+}
+
+#circle, .circle {
+  fill: transparent;
+  stroke: black;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  stroke-width: 2;
+}
+
+.path {
+  fill: transparent;
+}
+/*# sourceMappingURL=main.css.map */
